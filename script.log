@@ -1,0 +1,359 @@
+BASH : Start Logging
+TCL : all args present in argv : file.txtt
+TCL : Searching file.txtt file
+Found: ./test/file.txtt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txtt
+TCL : Searching file.txtt file
+Found: ./test/test2/file.txtt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txtt
+TCL : Searching file.txtt file
+Found: ./test/test2/file.txtt
+ res : 1
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txtt
+TCL : Searching file.txtt file
+Found: ./test/test2/file.txtt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txtas
+TCL : Searching file.txtas file
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txtas
+TCL : Searching file.txtas file
+Not : 0
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txtas
+TCL : Searching file.txtas file
+Not Found
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt file.txtt
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt file.txtt
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt main.sh script.log tcl_search.tcl
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txtas
+TCL : Searching for files matching pattern: file.txtas
+Not Found
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching for files matching pattern: file.txt
+Found: ./file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txtas
+TCL : Searching file.txtas file
+Not Found
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.text
+TCL : Searching file.text file
+Not Found
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt main.sh script.log tcl_search.tcl
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c
+TCL : Searching file.c file
+Found: ./test/file.c
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.c
+Found: ./file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c
+TCL : Searching file.c file
+Found: ./test/file.c
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.c
+Found: ./file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c file.txt
+TCL : Searching file.c file
+Found: ./test/file.c
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.c
+Found: ./file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c file.txt
+TCL : Searching file.c file
+Found: ./test/file.c
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.c
+Found: ./file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c
+TCL : Searching file.c file
+Found: ./test/file.c
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.c
+Found: ./file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : filk.c
+TCL : Searching filk.c file
+Not Found
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c
+TCL : Searching file.c file
+Found: ./test/file.c
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.c
+Found: ./file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c
+TCL : Searching file.c file
+Found: ./test/file.c
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.c
+Found: ./file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : filr.c
+TCL : Searching filr.c file
+Found: ./test/test2/test_entry/filr.c
+Found: ./filr.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : filr/c
+TCL : Searching filr/c file
+Not Found
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : filr.c
+TCL : Searching filr.c file
+Found: ./test/test2/test_entry/filr.c
+Found: ./filr.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c
+TCL : Searching file.c file
+Found: ./test/file.c
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : filr.c
+TCL : Searching filr.c file
+Found: ./test/test2/test_entry/filr.c
+Found: ./filr.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./file.txt
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c file.txt
+TCL : Searching file.c file
+Found: ./test/file.c
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.c
+Found: ./file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c file.txt
+TCL : Searching file.c file.txt file
+Not Found
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c file.txt
+TCL : Searching file.c file.txt file
+can't read "file_patterns": no such variable
+    while executing
+"foreach pattern $file_patterns {
+                if {[string match $file_pattern [file tail $file]]} {
+                    puts "Found: $file"
+       ..."
+    (procedure "search_files" line 8)
+    invoked from within
+"search_files $dir $file_pattern"
+    invoked from within
+"set result [search_files $dir $file_pattern]"
+    (file "tcl_search.tcl" line 36)
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c file.txt
+TCL : Searching file.c file.txt file
+Not Found
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c file.txt
+TCL : Searching file.c file
+Found: ./test/file.c
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.c
+Found: ./file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.c
+TCL : Searching file.c file
+Found: ./test/file.c
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txt
+TCL : Searching file.txt file
+Found: ./test/file.txt
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.txtt
+TCL : Searching file.txtt file
+Found: ./test/test2/file.txtt
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.*
+TCL : Searching file.* file
+Found: ./test/file.txt
+Found: ./test/file.c
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.txtt
+Found: ./test/test2/file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.*
+TCL : Searching file.* file
+Found: ./test/file.txt
+Found: ./test/file.c
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.txtt
+Found: ./test/test2/file.c
+BASH : End Bash main script 
+BASH : Start Logging
+TCL : all args present in argv : file.*
+TCL : Searching file.* file
+Found: ./test/file.txt
+Found: ./test/file.c
+Found: ./test/test2/file.txt
+Found: ./test/test2/test_entry/file.txt
+Found: ./test/test2/test_entry/file.c
+Found: ./test/test2/file.txtt
+Found: ./test/test2/file.c
+BASH : End Bash main script 
