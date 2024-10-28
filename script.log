@@ -1,359 +1,653 @@
-BASH : Start Logging
-TCL : all args present in argv : file.txtt
-TCL : Searching file.txtt file
-Found: ./test/file.txtt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txtt
-TCL : Searching file.txtt file
-Found: ./test/test2/file.txtt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txtt
-TCL : Searching file.txtt file
-Found: ./test/test2/file.txtt
- res : 1
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txtt
-TCL : Searching file.txtt file
-Found: ./test/test2/file.txtt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txtas
-TCL : Searching file.txtas file
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txtas
-TCL : Searching file.txtas file
-Not : 0
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txtas
-TCL : Searching file.txtas file
+TCL : all args present in argv : file ./ false false
+TCL : Searching file file
 Not Found
-BASH : End Bash main script 
+BASH : End Bash main script
 BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt file.txtt
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt file.txtt
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt main.sh script.log tcl_search.tcl
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txtas
-TCL : Searching for files matching pattern: file.txtas
-Not Found
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching for files matching pattern: file.txt
-Found: ./file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txtas
-TCL : Searching file.txtas file
-Not Found
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.text
-TCL : Searching file.text file
-Not Found
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt main.sh script.log tcl_search.tcl
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.c
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.c'
+TCL : all args present in argv : file.c ./ true false
 TCL : Searching file.c file
-Found: ./test/file.c
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.c
-Found: ./file.c
-BASH : End Bash main script 
+file.c
+file.c
+file.c
+BASH : End Bash main script
 BASH : Start Logging
-TCL : all args present in argv : file.c
-TCL : Searching file.c file
-Found: ./test/file.c
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.c
-Found: ./file.c
-BASH : End Bash main script 
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.c'
+TCL : Starting search in directory ./
+TCL : Searching for pattern file.c
+file.c
+file.c
+file.c
+BASH : End Bash main script
+file.c
+file.c
+file.c
+BASH : End Bash main script
+TCL : Not Found
+BASH : End Bash main script
 BASH : Start Logging
-TCL : all args present in argv : file.c file.txt
-TCL : Searching file.c file
-Found: ./test/file.c
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.c
-Found: ./file.c
-BASH : End Bash main script 
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.d'
+TCL : Starting search in directory ./
+TCL : Searching for pattern file.d
+TCL : Not Found
+BASH : End Bash main script
 BASH : Start Logging
-TCL : all args present in argv : file.c file.txt
-TCL : Searching file.c file
-Found: ./test/file.c
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.c
-Found: ./file.c
-BASH : End Bash main script 
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in directory ./
+TCL : Searching for pattern file.*
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+BASH : End Bash main script
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+BASH : End Bash main script
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+BASH : End Bash main script
 BASH : Start Logging
-TCL : all args present in argv : file.c
-TCL : Searching file.c file
-Found: ./test/file.c
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.c
-Found: ./file.c
-BASH : End Bash main script 
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in directory ./
+TCL : Searching for pattern file.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+BASH : End Bash main script
 BASH : Start Logging
-TCL : all args present in argv : filk.c
-TCL : Searching filk.c file
-Not Found
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.c
-TCL : Searching file.c file
-Found: ./test/file.c
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.c
-Found: ./file.c
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.c
-TCL : Searching file.c file
-Found: ./test/file.c
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.c
-Found: ./file.c
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : filr.c
-TCL : Searching filr.c file
-Found: ./test/test2/test_entry/filr.c
-Found: ./filr.c
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : filr/c
-TCL : Searching filr/c file
-Not Found
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : filr.c
-TCL : Searching filr.c file
-Found: ./test/test2/test_entry/filr.c
-Found: ./filr.c
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.c
-TCL : Searching file.c file
-Found: ./test/file.c
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.c
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : filr.c
-TCL : Searching filr.c file
-Found: ./test/test2/test_entry/filr.c
-Found: ./filr.c
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./file.txt
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.c file.txt
-TCL : Searching file.c file
-Found: ./test/file.c
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.c
-Found: ./file.c
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.c file.txt
-TCL : Searching file.c file.txt file
-Not Found
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.c file.txt
-TCL : Searching file.c file.txt file
-can't read "file_patterns": no such variable
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in directory ./
+TCL : Searching for pattern file.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+BASH : End Bash main script
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+BASH : End Bash main script
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+Total files found: 7
+BASH : End Bash main script
+expected integer but got "file_count"
     while executing
-"foreach pattern $file_patterns {
-                if {[string match $file_pattern [file tail $file]]} {
-                    puts "Found: $file"
-       ..."
-    (procedure "search_files" line 8)
+"incr file_count"
+    (procedure "search_files" line 10)
     invoked from within
-"search_files $dir $file_pattern"
+"search_files $file $file_pattern $verbose file_count_ref"
+    (procedure "search_files" line 6)
     invoked from within
-"set result [search_files $dir $file_pattern]"
-    (file "tcl_search.tcl" line 36)
-BASH : End Bash main script 
+"search_files $dir $file_pattern $verbose file_count"
+    invoked from within
+"set total_files [search_files $dir $file_pattern $verbose file_count]"
+    (file "search.tcl" line 44)
+BASH : End Bash main script
+TCL : file.txt (0)
+TCL : file.c (1)
+TCL : file.txt (0)
+TCL : file.txt (0)
+TCL : file.c (1)
+TCL : file.txtt (3)
+TCL : file.c (4)
+Total files found: 7
+BASH : End Bash main script
+can't read "counter_files": no such variable
+    while executing
+"puts "TCL : [file tail $file] ($counter_files)""
+    (procedure "search_files" line 13)
+    invoked from within
+"search_files $file $file_pattern $verbose"
+    (procedure "search_files" line 5)
+    invoked from within
+"search_files $dir $file_pattern $verbose"
+    invoked from within
+"set total_files [search_files $dir $file_pattern $verbose]"
+    (file "search.tcl" line 40)
+BASH : End Bash main script
+can't read "counter_files": no such variable
+    while executing
+"puts "TCL : [file tail $file] ($counter_files)""
+    (procedure "search_files" line 13)
+    invoked from within
+"search_files $file $file_pattern $verbose"
+    (procedure "search_files" line 5)
+    invoked from within
+"search_files $dir $file_pattern $verbose"
+    invoked from within
+"set total_files [search_files $dir $file_pattern $verbose]"
+    (file "search.tcl" line 42)
+BASH : End Bash main script
+TCL : file.txt (0)
+TCL : file.c (1)
+TCL : file.txt (0)
+TCL : file.txt (0)
+TCL : file.c (1)
+TCL : file.txtt (1)
+TCL : file.c (2)
+Total files found: 7
+BASH : End Bash main script
+TCL : file.txt (1)
+TCL : file.c (1)
+TCL : file.txt (1)
+TCL : file.txt (1)
+TCL : file.c (1)
+TCL : file.txtt (1)
+TCL : file.c (1)
+Total files found: 7
+BASH : End Bash main script
+TCL : file.txt (1)
+TCL : file.c (2)
+TCL : file.txt (1)
+TCL : file.txt (1)
+TCL : file.c (2)
+TCL : file.txtt (2)
+TCL : file.c (3)
+Total files found: 7
+BASH : End Bash main script
+can't set "file_count(file.txt)": variable isn't array
+    while executing
+"set file_count($file_name) 1"
+    (procedure "search_files" line 13)
+    invoked from within
+"search_files $file $file_pattern $verbose file_count"
+    (procedure "search_files" line 4)
+    invoked from within
+"search_files $dir $file_pattern $verbose file_count"
+    invoked from within
+"set file_count [search_files $dir $file_pattern $verbose file_count]"
+    (file "search.tcl" line 48)
+BASH : End Bash main script
+TCL : file.txt (1)
+TCL : file.c (1)
+TCL : file.txt (2)
+TCL : file.txt (3)
+TCL : file.c (2)
+TCL : file.txtt (1)
+TCL : file.c (3)
+File: file.c - Count: 3
+File: file.txtt - Count: 1
+File: file.txt - Count: 3
+Total files found: 7
+BASH : End Bash main script
 BASH : Start Logging
-TCL : all args present in argv : file.c file.txt
-TCL : Searching file.c file.txt file
-Not Found
-BASH : End Bash main script 
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in directory ./
+TCL : Searching for pattern file.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+File: file.c - Count: 3
+File: file.txtt - Count: 1
+File: file.txt - Count: 3
+Total files found: 7
+BASH : End Bash main script
+TCL : file.txt (1)
+TCL : file.c (1)
+TCL : file.txt (2)
+TCL : file.txt (3)
+TCL : file.c (2)
+TCL : file.txtt (1)
+TCL : file.c (3)
+File: file.c - Count: 3
+File: file.txtt - Count: 1
+File: file.txt - Count: 3
+Total files found: 7
+BASH : End Bash main script
+TCL : file.txt
+TCL : file.c
+TCL : file.txt
+TCL : file.txt
+TCL : file.c
+TCL : file.txtt
+TCL : file.c
+Total files found: 7
+BASH : End Bash main script
+TCL : file.txt
+TCL : file.c
+TCL : file.txt
+TCL : file.txt
+TCL : file.c
+TCL : file.txtt
+TCL : file.c
+BASH : End Bash main script
 BASH : Start Logging
-TCL : all args present in argv : file.c file.txt
-TCL : Searching file.c file
-Found: ./test/file.c
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.c
-Found: ./file.c
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.c
-TCL : Searching file.c file
-Found: ./test/file.c
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.c
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txt
-TCL : Searching file.txt file
-Found: ./test/file.txt
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.txtt
-TCL : Searching file.txtt file
-Found: ./test/test2/file.txtt
-BASH : End Bash main script 
-BASH : Start Logging
-TCL : all args present in argv : file.*
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in directory ./
+TCL : Searching for pattern file.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 7
+BASH : End Bash main script
+TCL : all args present in argv : file.* ./ false
 TCL : Searching file.* file
-Found: ./test/file.txt
-Found: ./test/file.c
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.txtt
-Found: ./test/test2/file.c
-BASH : End Bash main script 
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+BASH : End Bash main script
 BASH : Start Logging
-TCL : all args present in argv : file.*
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.*'
+TCL : all args present in argv : file.* ./ true
 TCL : Searching file.* file
-Found: ./test/file.txt
-Found: ./test/file.c
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.txtt
-Found: ./test/test2/file.c
-BASH : End Bash main script 
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+BASH : End Bash main script
 BASH : Start Logging
-TCL : all args present in argv : file.*
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in directory ./
+TCL : Searching for pattern file.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 7
+BASH : End Bash main script
+TCL : file.txt
+TCL : file.c
+TCL : file.txt
+TCL : file.txt
+TCL : file.c
+TCL : file.txtt
+TCL : file.c
+BASH : End Bash main script
+./entry.sh: line 76: unexpected EOF while looking for matching `"'
+./entry.sh: line 77: syntax error: unexpected end of file
+./entry.sh: line 76: unexpected EOF while looking for matching `"'
+./entry.sh: line 77: syntax error: unexpected end of file
+TCL : all args present in argv : file.* ./ false
 TCL : Searching file.* file
-Found: ./test/file.txt
-Found: ./test/file.c
-Found: ./test/test2/file.txt
-Found: ./test/test2/test_entry/file.txt
-Found: ./test/test2/test_entry/file.c
-Found: ./test/test2/file.txtt
-Found: ./test/test2/file.c
-BASH : End Bash main script 
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+BASH : End Bash main script
+TCL : all args present in argv : file.* ./ false
+TCL : Searching file.* file
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.*'
+TCL : all args present in argv : file.* ./ true
+TCL : Searching file.* file
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.*'
+TCL : all args present in argv : file.* ./ true
+TCL : Searching file.* file
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Directory set to ./
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in directory ./
+TCL : Searching for pattern file.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 7
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Directory set to ./task
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in directory ./task
+TCL : Searching for pattern file.*
+no files matched glob pattern "*"
+    while executing
+"glob -directory $dir *"
+    (procedure "search_files" line 3)
+    invoked from within
+"search_files $dir $file_pattern $verbose"
+    invoked from within
+"set total_files [search_files $dir $file_pattern $verbose]"
+    (file "search.tcl" line 38)
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern file.*
+expected integer but got "file_count"
+    while executing
+"incr file_count"
+    (procedure "search_files" line 10)
+    invoked from within
+"search_files $file $file_pattern $verbose file_count_ref"
+    (procedure "search_files" line 6)
+    invoked from within
+"search_files "./" $file_pattern $verbose file_count"
+    invoked from within
+"set result [search_files "./" $file_pattern $verbose file_count]"
+    (file "search.tcl" line 42)
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern file.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt (1)
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c (2)
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt (1)
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt (1)
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c (2)
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt (2)
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c (3)
+Total files found: 7
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern file.*
+Total files found: 7
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern file.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 0
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'file.*'
+Total files found: 0
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern file.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 0
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'file.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern file.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 7
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'file.c'
+TCL : Starting search in current directory
+TCL : Searching for pattern file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 3
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'file.c'
+TCL  : Starting search in current directory
+TCL  : Searching for pattern file.c
+TCL  : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL  : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL  : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+TCL  :Total files found: 3
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'file.c'
+TCL  : Starting search in current directory
+TCL  : Searching for pattern file.c
+TCL  : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL  : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL  : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+TCL  : Total files found: 3
+BASH : End Bash main script
+TCL  : Total files found: 3
+BASH : End Bash main script
+file.c
+file.c
+file.c
+Total files found: 3
+BASH : End Bash main script
+file.txt
+file.c
+file.txt
+file.txt
+file.c
+file.txtt
+file.c
+Total files found: 7
+BASH : End Bash main script
+file.txt
+fild.c
+file.c
+file.txt
+file.txt
+filr.c
+file.c
+file.txtt
+file.c
+Total files found: 9
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'fil?.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern fil?.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/fild.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/filr.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 9
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'fil?.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern fil?.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/fild.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/filr.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 9
+BASH : End Bash main script
+file.txt
+fild.c
+file.c
+file.txt
+file.txt
+filr.c
+file.c
+file.txtt
+file.c
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'fil?.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern fil?.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/fild.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/filr.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 9
+BASH : Total time taken: 0 seconds
+BASH : End Bash main script
+file.txt
+fild.c
+file.c
+file.txt
+file.txt
+filr.c
+file.c
+file.txtt
+file.c
+BASH : Total time taken: 0 seconds
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'fil?.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern fil?.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/fild.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/filr.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 9
+BASH : Total time taken: 0 seconds
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'fil?.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern fil?.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/fild.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/filr.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 9
+BASH : Total time taken: 0 seconds
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'fil?.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern fil?.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/fild.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/filr.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 9
+BASH : End Bash main script
+BASH : Start Logging
+BASH : Searching for pattern 'fil?.*'
+TCL : Starting search in current directory
+TCL : Searching for pattern fil?.*
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/fild.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.txt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/filr.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/test_entry/file.c
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.txtt
+TCL : Found file at /Users/igor404ik/Documents/bosch/task/test/test2/file.c
+Total files found: 9
+BASH : End Bash main script
