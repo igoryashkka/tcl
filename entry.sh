@@ -1,7 +1,7 @@
 #!/bin/bash
 
 show_help() {
-  echo "Usage: $0 [options] [search_pattern]"
+  echo "Usage: $0 [options] '[search_pattern]'"
   echo
   echo "Options:"
   echo "  -h, --help       Show this help message and exit"
@@ -14,7 +14,7 @@ show_help() {
   echo "  $0 -v -t 'file.c'        # Verbose search for 'file.c' and log time taken"
   echo
   echo "Note:"
-  echo "  Only one search pattern can be provided at a time."
+  echo "  Enclose the search pattern in single quotes to prevent shell expansion."
 }
 
 LOGFILE="script.log"
