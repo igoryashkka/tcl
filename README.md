@@ -18,6 +18,13 @@ To enable verbose mode and display execution time, use the `-v` and `-t` options
 ```bash
 ./entry.sh -v -t 'main.cpp'
 ```
+## Warning
+
+To see log report
+
+```bash
+nano script.log
+```
 
 ## Error Handling
 
@@ -31,6 +38,6 @@ This script has been tested on Linux only. It has not been tested on macOS or Wi
 
 ## Example Output
 
-![Example Output] <img src="data/images/out.jpg" alt="Out image" height="400"/> 
+<img src="data/images/out.jpg" alt="Out image" height="400"/> 
 
 ---
