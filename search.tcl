@@ -14,7 +14,7 @@ if {$verbose} {
 set total_count 0
 proc search_files {dir file_pattern verbose} {
     global total_count
-    foreach file [glob -directory $dir *] {
+    foreach file [glob -nocomplain -directory $dir *] {
         if {[file isdirectory $file]} {
             search_files $file $file_pattern $verbose
         } elseif {[string match $file_pattern [file tail $file]]} {
